@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("images/photo-1649424220306-0f0115c59db2.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ece3e3;
+  margin: 0;
+  padding: 20px;
+}
+header {
+  margin: 20px 0;
+  text-align: center;
+}
+#title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#description {
+    font-size: 16px;
+}
+form {
+  background-color: rgb(90, 80, 132);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+fieldset {
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+input,
+textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+textarea,
+.first input {
+  width: 100%;
+}
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff; 
+  font-size: 16px;
+}
+select:focus {
+  border-color: #555;
+  outline: none;
+}
+
+/* Style the fieldset for checkboxes */
+fieldset.checkbox-group {
+  padding: 10px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.checkbox-group label {
+  display: block;
+  margin: 5px 0;
+}
+/* Style the fieldset for radio buttons */
+fieldset.radio-group {
+  padding: 10px;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 8px;
+}
+
+.radio-group label {
+  display: block;
+  margin: 5px 0;
+}
+
+#submit {
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#submit:hover {
+  background-color: #218838;
+}
