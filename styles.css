@@ -52,17 +52,26 @@ label {
   margin-top: 10px;
   display: block;
 }
-input,
-textarea {
+input {
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-textarea,
 .first input {
   width: 100%;
 }
+textarea {
+    resize: vertical;
+    min-height: 100px; /* Adjust as needed */
+    width: 100%; /* Ensures it fits the container */
+    padding: 10px;
+    font-size: 16px; 
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 select {
   width: 100%;
   padding: 10px;
